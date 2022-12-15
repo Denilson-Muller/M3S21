@@ -1,7 +1,7 @@
 package br.com.futurodev.Exercicio.controler;
 
 
-import br.com.futurodev.Exercicio.model.Book;
+import br.com.futurodev.Exercicio.entidades.Book;
 import br.com.futurodev.Exercicio.service.ServiceBook;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

@@ -1,6 +1,6 @@
 package br.com.futurodev.Exercicio.Repositorio;
 
-import br.com.futurodev.Exercicio.model.Author;
+import br.com.futurodev.Exercicio.entidades.Author;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;

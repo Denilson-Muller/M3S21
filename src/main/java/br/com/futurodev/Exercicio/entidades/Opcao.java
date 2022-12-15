@@ -1,4 +1,4 @@
-package br.com.futurodev.Exercicio.model;
+package br.com.futurodev.Exercicio.entidades;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -12,17 +12,14 @@ import javax.persistence.*;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
-
-public class Card {
+public class Opcao {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Column(name = "id", nullable = false)
     private Long id;
 
-    private String number;
-    private Double limit;
-    private Double currentLimit;
-    EnumType typeCard;
+    String CREDIT;
+    String DEBIT;
 
     public Long getId() {
         return id;

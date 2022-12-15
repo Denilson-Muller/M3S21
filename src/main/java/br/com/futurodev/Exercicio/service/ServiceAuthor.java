@@ -1,7 +1,7 @@
 package br.com.futurodev.Exercicio.service;
 
 import br.com.futurodev.Exercicio.Repositorio.RepositoryAuthor;
-import br.com.futurodev.Exercicio.model.Author;
+import br.com.futurodev.Exercicio.entidades.Author;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

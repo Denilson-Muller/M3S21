@@ -1,6 +1,6 @@
 package br.com.futurodev.Exercicio.controler;
 
-import br.com.futurodev.Exercicio.model.Author;
+import br.com.futurodev.Exercicio.entidades.Author;
 import br.com.futurodev.Exercicio.service.ServiceAuthor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

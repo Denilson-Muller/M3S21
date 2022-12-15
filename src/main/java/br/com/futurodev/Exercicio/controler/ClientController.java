@@ -1,8 +1,7 @@
 package br.com.futurodev.Exercicio.controler;
 
-import br.com.futurodev.Exercicio.model.Client;
+import br.com.futurodev.Exercicio.entidades.Client;
 import br.com.futurodev.Exercicio.service.ServiceClient;
-import org.hibernate.validator.constraints.br.CPF;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

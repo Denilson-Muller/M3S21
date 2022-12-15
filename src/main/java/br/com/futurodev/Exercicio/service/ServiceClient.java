@@ -1,7 +1,7 @@
 package br.com.futurodev.Exercicio.service;
 
 import br.com.futurodev.Exercicio.Repositorio.RepositoryClient;
-import br.com.futurodev.Exercicio.model.Client;
+import br.com.futurodev.Exercicio.entidades.Client;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

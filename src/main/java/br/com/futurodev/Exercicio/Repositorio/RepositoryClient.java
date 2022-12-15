@@ -1,6 +1,6 @@
 package br.com.futurodev.Exercicio.Repositorio;
 
-import br.com.futurodev.Exercicio.model.Client;
+import br.com.futurodev.Exercicio.entidades.Client;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;

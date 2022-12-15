@@ -1,4 +1,4 @@
-package br.com.futurodev.Exercicio.model;
+package br.com.futurodev.Exercicio.entidades;
 
 import lombok.*;
 
